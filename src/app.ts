@@ -49,3 +49,6 @@ export function createApp(): Express {
 
   return app;
 }
+
+// Export instantiated app as default for Vercel Serverless deployments
+export default createApp();
