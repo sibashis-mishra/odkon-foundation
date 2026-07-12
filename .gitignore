@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables — NEVER commit .env
+.env
+.env.local
+.env.*.local
+
+# Prisma generated client (regenerated via prisma generate)
+# Keep schema.prisma and migrations, but ignore the generated JS client
+# node_modules/@prisma/client is already covered above
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+
+# Misc
+*.tsbuildinfo
