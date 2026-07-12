@@ -8,6 +8,7 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 
 import { env } from './config/env';
+import './types/index';
 import { errorHandler } from './middleware/errorHandler';
 
 import authRoutes      from './modules/auth/auth.routes';
